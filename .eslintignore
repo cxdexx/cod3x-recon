@@ -1,0 +1,34 @@
+dist/
+
+# Node modules
+node_modules/
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment files
+.env
+
+# ESLint cache and config
+.eslintrc.cjs
+
+# Test coverage
+coverage/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Optional: if you keep any generated/exported results
+results/
+exports/

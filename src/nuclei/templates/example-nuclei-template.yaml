@@ -1,0 +1,42 @@
+id: exposed-admin-panel
+
+info:
+  name: Exposed Admin Panel Detection
+  author: CODEX-SPECTRUM
+  severity: high
+  description: Detects common admin panels that may be publicly accessible
+  tags: admin,panel,exposure
+
+requests:
+  - method: GET
+    path:
+      - "{{BaseURL}}/admin"
+      - "{{BaseURL}}/administrator"
+      - "{{BaseURL}}/admin.php"
+      - "{{BaseURL}}/wp-admin"
+      - "{{BaseURL}}/cpanel"
+      - "{{BaseURL}}/phpmyadmin"
+
+    matchers-condition: and
+    matchers:
+      - type: status
+        status:
+          - 200
+          - 401
+          - 403
+
+      - type: word
+        words:
+          - "admin"
+          - "login"
+          - "administrator"
+          - "dashboard"
+          - "panel"
+        condition: or
+        case-insensitive: true
+
+    extractors:
+      - type: regex
+        regex:
+          - '<title>([^<]+)</title>'
+        group: 1

@@ -1,0 +1,181 @@
+# Common subdomain wordlist for COD3X:RECON
+# Format: one subdomain per line
+# Lines starting with # are comments
+
+# Common services
+www
+mail
+ftp
+smtp
+pop
+imap
+webmail
+email
+
+# Admin & Management
+admin
+administrator
+cpanel
+panel
+dashboard
+portal
+manage
+management
+
+# Development & Testing
+dev
+development
+staging
+stage
+stg
+test
+testing
+qa
+uat
+sandbox
+demo
+
+# API & Services
+api
+api1
+api2
+api-dev
+api-staging
+api-prod
+rest
+graphql
+gateway
+ws
+websocket
+
+# Static & CDN
+static
+cdn
+assets
+img
+images
+media
+files
+download
+downloads
+upload
+uploads
+
+# Mail services
+mx
+mx1
+mx2
+autodiscover
+autoconfig
+
+# VPN & Remote
+vpn
+remote
+rdp
+citrix
+gateway
+
+# Database
+db
+database
+mysql
+postgres
+mongo
+redis
+elastic
+elasticsearch
+
+# CI/CD
+jenkins
+gitlab
+github
+bitbucket
+ci
+cd
+build
+deploy
+
+# Monitoring & Logs
+monitor
+monitoring
+grafana
+kibana
+prometheus
+logs
+sentry
+newrelic
+
+# Cloud & Infrastructure
+cloud
+k8s
+kubernetes
+docker
+rancher
+swarm
+
+# Mobile
+mobile
+m
+app
+ios
+android
+
+# Regional
+us
+eu
+asia
+uk
+de
+fr
+au
+ca
+
+# Blog & Content
+blog
+news
+forum
+community
+support
+help
+docs
+documentation
+wiki
+
+# Marketing & Analytics
+analytics
+tracking
+metrics
+stats
+crm
+
+# E-commerce
+shop
+store
+cart
+checkout
+payment
+pay
+
+# Security
+secure
+ssl
+tls
+auth
+oauth
+sso
+ldap
+ad
+
+# Backup & Archive
+backup
+bak
+archive
+old
+legacy
+
+# Misc
+status
+health
+ping
+info
+about

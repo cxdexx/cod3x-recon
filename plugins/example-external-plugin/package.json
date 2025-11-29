@@ -1,0 +1,14 @@
+{
+  "name": "example-external-plugin",
+  "version": "1.0.0",
+  "description": "Example external plugin for COD3X:RECON",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "cod3x",
+    "plugin",
+    "security"
+  ],
+  "author": "CODEX-SPECTRUM",
+  "license": "MIT"
+}
